@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/yuin/gopher-lua"
-	//"github.com/cn0512/GoServerFrame/Core/Yklua"
-	"../../Core/Yklua"
+	//"github.com/cn0512/goLuaGame/src/Yklua"
+	"../../src/Yklua"
 )
 
 const (

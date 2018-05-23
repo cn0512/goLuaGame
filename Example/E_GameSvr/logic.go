@@ -9,7 +9,7 @@ import (
 )
 
 func InitLogic() {
-
+	fmt.Println("init")
 }
 
 func StartGame() {
