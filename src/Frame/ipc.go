@@ -1,4 +1,4 @@
-package main
+package Frame
 
 func OnG2L(msg *Msg) {
 

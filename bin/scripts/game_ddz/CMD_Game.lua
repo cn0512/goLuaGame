@@ -224,4 +224,12 @@ cmd.CMD_C_OutCard =
     {k = "cbCardData", t = "byte", l = {cmd.MAX_COUNT}},        --扑克数据
 }
 
+-- yk 用户登录
+cmd.CMD_C_Login = 
+{
+    {k = "account", t = "string"},                  
+    {k = "passwd", t = "string" },
+}
+
+
 return cmd

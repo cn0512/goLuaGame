@@ -28,10 +28,17 @@ func init() {
 func TestLoad(t *testing.T) {
 
 	//[1]
-	//cmd = Yklua.Load(ddz_script_cmd)
+	cmd = Load(ddz_script_cmd)
 	//define = Yklua.Load(ddz_script_define)
 	logic = Load(ddz_script_logic)
 	fmt.Println(cmd, ",", define, ",", logic)
+
+	//[1]
+	c1 := cmd.GetGlobal("cmd")
+	c2 := cmd.Get(1)
+	c3 := cmd.GetField(c2, "CMD_C_Login")
+	fmt.Println(c1, c2, c3)
+	fmt.Println(c3.String(), c3.Type())
 
 	//[2]
 	g1 := logic.GetGlobal("GameLogic")

@@ -1,4 +1,4 @@
-package main
+package Frame
 
 /*
 	处理进出座位

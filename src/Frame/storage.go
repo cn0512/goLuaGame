@@ -1,0 +1,5 @@
+package Frame
+
+func InitStorage() {
+
+}
